@@ -97,16 +97,16 @@
         <div class="col-md-6">
           <h2>Education</h2>
             <div class="edu-content">
-              I am currently pursuing a thesis-based Masters degree in electrical engineering under the advisement of Dr. Jie Huang. Before this,
+              <p>I am currently pursuing a thesis-based Masters degree in electrical engineering under the advisement of Dr. Jie Huang. Before this,
               I graduated in May 2021 with my Bachelor's degree in electrical engineering, receiving Summa Cum Laude honors. My current degree
-              focuses on electromagnetics, including signal integrity for high-speed electronic systems, microwaves, and optics.
+              focuses on electromagnetics, including signal integrity for high-speed electronic systems, microwaves, and optics.</p>
             </div>
         </div>
         <div class="col-md-6">
           <h2>Experience</h2>
-            Through my time at S&T, I've gained a vast amount of experience working with electrical systems. My first internship with Paul Mueller Company
+            <p>Through my time at S&T, I've gained a vast amount of experience working with electrical systems. My first internship with Paul Mueller Company
             allowed me to serve as a lead on a new product line of electric water purifiers, substantially expanding the companies clientel. Most recently, my
-            my ongoing internship at Sandia National Labs has allowed me to work with PCB design, filter design, and various simulation techniques.
+            my ongoing internship at Sandia National Labs has allowed me to work with PCB design, filter design, and various simulation techniques.</p>
         </div>
       </div>
     </div>
@@ -137,19 +137,57 @@
 </section>
 <section id="presentations">
   <div class="container">
-    <h1 class="center">Presentations</h1>
-      <h2 class ="center">Upcoming Presentations</h2>
-        In the next month, I will be holding two presentations. The first is in collaboration with the IEEE St. Louis section
-        for their student presentation competition. My presentation title is "Metal Organic Framework for Sensing Conditions
-        by Electronic Nose Technology (MOF-SCENT): A novel sensing technology for real-time detection of pulmonary disease."
-        This will be held on October 9, 2021. The second presentation is in collaboration with the Chemistry and Biology departments
-        of Missouri Southern State University. The date and title for this presentation is still pending. More information will be posted
-        once available.
-      <h2 class="center">Miners Think 2021</h2>
-      <h2 class ="center">St. Louis IEEE Student Presentations</h2>
-      <h2 class="center">Missouri S&T Undergraduate Research Symposium</h2>
-      <h2 class="center">#MinersThink 2020</h2>
+    <button class="accordion">Upcoming Presentations</button>
+    <div class="panel">
+      <p>In the next month, I will be holding two presentations. The first is in collaboration with the IEEE St. Louis section
+      for their student presentation competition. My presentation title is "Metal Organic Framework for Sensing Conditions
+      by Electronic Nose Technology (MOF-SCENT): A novel sensing technology for real-time detection of pulmonary disease."
+      This will be held on October 9, 2021. The second presentation is in collaboration with the Chemistry and Biology departments
+      of Missouri Southern State University. The date and title for this presentation is still pending. More information will be posted
+      once available.</p>
+    </div>
+
+    <button class="accordion">Miners Think 2021</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+
+    <button class="accordion">St. Louis IEEE Student Presentation Competition</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+
+    <button class="accordion">Missouri S&T Undergraduate Research Symposium</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
+
+    <button class="accordion">#MinersThink 2020</button>
+    <div class="panel">
+      <p>Lorem ipsum...</p>
+    </div>
   </div>
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      /* Toggle between adding and removing the "active" class,
+      to highlight the button that controls the panel */
+      this.classList.toggle("active");
+
+      /* Toggle between hiding and showing the active panel */
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+</script>
+
 </section>
 
 <section id="contact">
