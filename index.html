@@ -152,43 +152,56 @@
 
     <button class="accordion">Miners Think 2021</button>
     <div class="panel">
-      <p>Lorem ipsum...</p>
+      <p>In August, 2021, I was asked to return for a second year to present the Miners Think mission of Opening Week,
+        a week-long orientation for incoming freshmen to Missouri S&T. This presentation dealt with the harsh realities of
+        college living and provided the proper resources available on campus to mitigate or resolve thes issues. The presentation
+        was given to over 1200 freshmen in groups of approximately fifty students at a time. 
+      </p>
     </div>
 
     <button class="accordion">St. Louis IEEE Student Presentation Competition</button>
     <div class="panel">
-      <p>Lorem ipsum...</p>
+      <p>In March, 2021, I presented to in the St. Louis Student Presentation Competition with the title of "
+        A Real-time Sensor for Monitoring Degradation of Aluminum Armor Plates casued by Gallium Infiltration Attacks."
+        I was awarded first place in the undergraduate technical section.
+      </p>
     </div>
 
     <button class="accordion">Missouri S&T Undergraduate Research Symposium</button>
     <div class="panel">
-      <p>Lorem ipsum...</p>
+      <p>In April, 2021, I participated in the Missouri S&T Undergraduate Research Symposium with a presentation entitled "A
+        Machine Learning Approach for Monitoring Degradation of Aluminum Armor Plates caused by Gallium Infiltration Attacks". I was awarded
+        second place in the engineering division.
+      </p>
     </div>
 
     <button class="accordion">#MinersThink 2020</button>
     <div class="panel">
-      <p>Lorem ipsum...</p>
+      <p>In August, 2020, I presented to to over 1200 incoming freshmen of Missouri S&T on the wellbeing resources available to them
+        on campus. The presentation, was given remotely to several groups of approximately fifteen students each and was tailored to best
+        discuss the topics most necessary for each group.
+      </p>
     </div>
   </div>
   <script>
-  var acc = document.getElementsByClassName("accordion");
-  var i;
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      /* Toggle between adding and removing the "active" class,
-      to highlight the button that controls the panel */
-      this.classList.toggle("active");
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
 
-      /* Toggle between hiding and showing the active panel */
-      var panel = this.nextElementSibling;
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
-      } else {
-        panel.style.display = "block";
-      }
-    });
-  }
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
 </script>
 
 </section>
