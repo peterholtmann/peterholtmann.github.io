@@ -189,7 +189,7 @@
   background-size: cover;
   background-position: center;
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 #research h1
 {
@@ -212,7 +212,7 @@
 {
   background: #fff;
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   color: #777;
 }
 #pubs h1
@@ -241,7 +241,7 @@
 {
   background: #fff;
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   color: #777;
 }
 #presentations h1
