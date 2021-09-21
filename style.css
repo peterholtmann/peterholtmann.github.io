@@ -87,6 +87,24 @@
   color: #555;
 }
 
+#about h1
+{
+  text-align: center;
+  color: #00002d;
+  padding-bottom: 0px;
+}
+
+#about h1::after
+{
+  content:'';
+  background: #f88859;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 10px auto 5px;
+}
+
+
 #about h2
 {
   text-align: center;
