@@ -132,12 +132,12 @@
 
 .edu-content
 {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .exp-content
 {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .skills-bar p
@@ -164,7 +164,7 @@
   background-color: #fff;
   background-size: cover;
   background-position: center;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 #news h1
 {
