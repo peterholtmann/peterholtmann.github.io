@@ -160,7 +160,7 @@
 /*------News------*/
 #news
 {
-  padding-top: 50px;
+  padding-top: 20px;
   background-color: #fff;
   background-size: cover;
   background-position: center;
@@ -188,7 +188,7 @@
   background-color:  #fff;
   background-size: cover;
   background-position: center;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px;
 }
 #research h1
@@ -211,7 +211,7 @@
 #pubs
 {
   background: #fff;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px;
   color: #777;
 }
@@ -240,7 +240,7 @@
 #presentations
 {
   background: #fff;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px;
   color: #777;
 }
@@ -292,8 +292,8 @@
 #contact
 {
   background: #efefef;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   color: #777;
 }
 #contact h1
